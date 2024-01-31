@@ -19,6 +19,13 @@
             // or left array have been put in the main index. Then any values remaining in one of the right or left indexes
             // Is added to the main array. This process is repeated recursively until the entire array is sorted.
 
+            // ALGORITHM COMPLEXITY
+            // Merge sort is a divide and conquer strategy. Since each half is sorted before it is merged together, time spent iterating
+            // through the array is minimized, compared to a simpler approach like the bubble sort. On average and in the worst case, the time complexity of
+            // merge sort is O(n log n), while the time complexity of bubble sort is O(n^2). This makes merge sort significantly more efficient 
+            // to sort large data sets.
+            //
+
             Console.WriteLine("Merge Sort Implementation in C#");
             // Array initialization and method calls will go here
 
